@@ -1,10 +1,10 @@
 import React from 'react';
 import { styled } from 'styled-components';
-import { Container } from './Container';
 import { theme } from '../styles/Theme';
 import { Announcement } from './Announcement';
+import { TextWrapper } from './TextWrapper';
 
-export const Statistic = () => {
+export const Statistics = () => {
     return (
         <StatisticWrapper>
                 <TextWrapper>
@@ -30,9 +30,6 @@ export const Statistic = () => {
 const StatisticItem = styled.div`
     font-size: 100px;
     margin-bottom: 14px;
-`
-
-const TextWrapper =styled.div`
 `
 
 const StatisticWrapper = styled.div`

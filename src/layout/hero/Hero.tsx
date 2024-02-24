@@ -17,7 +17,7 @@ export const Hero = () => {
                 <TextWrapper>
                     <HeroHeader>Powerful for developers. Fast for everyone.</HeroHeader>
                     <HeroText>
-                        Bring blockchain to the people. Solana supports experiences for power users, new consumers, and everyone in between.
+                        Bring blockchain to the people. Solana supports experiences <br/> for power users, new consumers, and everyone in between.
                     </HeroText>
                 </TextWrapper>
                 <ButtonWrapper>
@@ -31,7 +31,7 @@ export const Hero = () => {
 
 
 const HeroWrapper = styled.section<HeroWrapperPropsType>`
-    max-width: 1718px;
+    min-width: 1718px;
     width: 100%;
     /* min-height: 664px; */
     padding: 270px 0 120px;

@@ -2,9 +2,10 @@ import React from 'react';
 import { styled } from 'styled-components';
 import { Container } from '../../components/Container';
 import { BigHeader } from '../../components/BigHeader';
+import { Statistics } from '../../components/Statistics';
+import { Characteristics } from '../../components/Characteristics';
 
 import back from '../../assets/img/community-bg.jpg'
-import { Statistic } from '../../components/Statistic';
 
 type CommunityWrapperPropsType = {
     imgSrc?: string
@@ -13,14 +14,14 @@ type CommunityWrapperPropsType = {
 export const Community = () => {
     return (
         <CommunityWrapper imgSrc={back}>
-            <Container column>
+            <Container column gap={'130px'}>
                 <Container gap={'268px'}>
-                    <BigHeader>Join a community of millions.</BigHeader>
-                    <Statistic />
+                    <BigHeader positioned>Join a community of millions.</BigHeader>
+                    <Statistics />
                 </Container>
 
-                <Container>
-                    <BigHeader>Made for mass adoption.</BigHeader>
+                <Container centered>
+                    <Characteristics />
                 </Container>
             </Container>
         </CommunityWrapper>
@@ -29,10 +30,11 @@ export const Community = () => {
 
 const CommunityWrapper = styled.section<CommunityWrapperPropsType>`
     background-image: url(${props => props.imgSrc});
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 125px;
     padding: 125px 0;
 
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
 `

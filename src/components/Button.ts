@@ -5,6 +5,7 @@ export const Button = styled.button`
     border: none;
     border-radius: 32px;
     padding: 16px 32px;
+    color: ${theme.fontColor.primary};
     background-image: linear-gradient(45deg, ${theme.buttonColor.first}, ${theme.buttonColor.second});
 
     font-size: 15px;
