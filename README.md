@@ -1,46 +1,61 @@
-# Getting Started with Create React App
+# Solana's webpage clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About the Project
 
-## Available Scripts
+This project involves the development of a front-end representation of Solana's main webpage. Solana is a high-performance blockchain supporting builders around the world creating crypto apps that scale today. The aim of this project is to create a responsive and visually appealing website that effectively communicates Solana's core features, technology, and its vibrant ecosystem.
 
-In the project directory, you can run:
+The project is developed using HTML, CSS-in-JS via Styled Components, and JavaScript. There's potential for integrating frameworks like React.js for more interactive features. Styled Components allow for better modularity and scalability of CSS by encapsulating styles in JavaScript. This method provides powerful theming capabilities and simplifies maintaining styles across a large application.
 
-### `yarn start`
+## Key Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Visual Design**: A modern, clean design that aligns with Solana's branding and aesthetic values, emphasizing speed, innovation, and security.
+- **Responsive Layout**: Ensuring the website is fully responsive and provides a seamless user experience on devices of all sizes, from mobile phones to large desktop screens.
+- **Accessibility**:: A focus on accessibility to ensure that the website is usable by everyone, including people with disabilities. This includes semantic HTML, appropriate ARIA attributes, sufficient color contrast, keyboard navigability, and screen reader support. Implementing these features will help in making the website more inclusive, adhering to WCAG (Web Content Accessibility Guidelines) standards.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Getting Started
 
-### `yarn test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js installed on your local machine.
+- npm or yarn as your package manager.
 
-### `yarn build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/nooraiym/project-solana.git
+   cd social-network
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Install dependencies:**
 
-### `yarn eject`
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+   or
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   yarn install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3. **Start the development server:**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+   ```bash
+   npm start
+   ```
 
-## Learn More
+   or
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   yarn start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   This runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## Contact
+
+Nuraiym Nurbulatova - [linkedin](https://www.linkedin.com/in/nurayim-nurbulatova/)
+
+Project Link: [https://github.com/nooraiym/project-solana](https://github.com/nooraiym/project-solana)
