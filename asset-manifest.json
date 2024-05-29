@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/project-solana/static/css/main.31d6cfe0.css",
+    "main.js": "/project-solana/static/js/main.086a1d2a.js",
+    "static/js/787.25eaef86.chunk.js": "/project-solana/static/js/787.25eaef86.chunk.js",
+    "static/media/community-bg.jpg": "/project-solana/static/media/community-bg.b7188c623094ac44f33d.jpg",
+    "static/media/building-img-1.jpg": "/project-solana/static/media/building-img-1.6b9d8606aa8b4b242bc9.jpg",
+    "static/media/building-bg.jpg": "/project-solana/static/media/building-bg.9ea96cefb2e4c887eb91.jpg",
+    "static/media/hero-bg-1.png": "/project-solana/static/media/hero-bg-1.2d5aaf74eafa8c0232bf.png",
+    "index.html": "/project-solana/index.html",
+    "main.086a1d2a.js.map": "/project-solana/static/js/main.086a1d2a.js.map",
+    "787.25eaef86.chunk.js.map": "/project-solana/static/js/787.25eaef86.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.086a1d2a.js"
+  ]
+}
